@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+        <!-- BOUNCER JS START -->
+<!-- Not recommended for production sites! -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/bouncer/dist/bouncer.polyfills.min.js"></script>
+
+<!-- Get minor updates and patch fixes within a major version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/bouncer@1/dist/bouncer.polyfills.min.js"></script>
+
+<!-- Get patch fixes within a minor version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/bouncer@1.0/dist/bouncer.polyfills.min.js"></script>
+
+<!-- Get a specific version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/bouncer@1.0.0/dist/bouncer.polyfills.min.js"></script>
+
+<script src="script.js" defer></script>
+
+<!-- BOUNCER JS END -->
+    
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav class="flex">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+
+                <ul class="nav-list flex">
+                    <li class="nav-list-item"><a href="#">Portfolio</a></li>
+                    <li class="nav-list-item"><a href="#" class="pink-text-bg">Hire me</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <section class="hero spacer">
+                    <div class="hero-col">
+                        <img src="images/illustration-hero.png" aria-hidden="true">
+
+                        <h1 class="hero-title">I <span class="pink-text-bg">design</span> top notch websites</h1>
+                    </div>
+
+                    <div class="hero-col">
+                        <p>I'll design your website, develop, and deploy it without using code</p>
+
+                        <button class="hero-button">Hire me</button>
+                    </div>
+                </section>
+
+                <section class="about-me">
+                    <div class="section-header spacer">
+                        <p class="section-title">What I do?</p>
+                        <img src="images/icon-arrow.png" aria-hidden="true">
+                    </div>
+
+                    <div class="about-cards grid">
+                        <div class="card">
+                            <p class="card-title card-title-first">Pen/Paper</p>
+                            <img src="images/icon-pencil.png" aria-hidden="true">
+                            <p class="card-desc">User Research Design</p>
+                        </div>
+
+                        <div class="card bg-blue">
+                            <p class="card-title card-title-second">Figma</p>
+                            <img src="images/icon-visual.png" aria-hidden="true">
+                            <p class="card-desc">UI & Product Design</p>
+                        </div>
+
+                        <div class="card bg-pink">
+                            <p class="card-title card-title-third">Webflow</p>
+                            <img src="images/icon-star.png" aria-hidden="true">
+                            <p class="card-desc">No-code Development</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="featured-projects">
+                    <div class="section-header spacer">
+                        <p class="section-title">Featured Projects</p>
+                        <img src="images/icon-arrow.png" aria-hidden="true">
+                        <p>Have designed more than 20 projects</p>
+                    </div>
+
+                    <div class="projects-container grid">
+                        <div class="project-card">
+                            <img src="images/portfolio-1.png" alt="4 styles portfolio design">
+
+                            <div class="flex">
+                                <p class="project-title">4 styles portfolio design</p>
+
+                                <button class="project-button bg-pink">
+                                    <img src="images/icon-pointer-1.png" aria-hidden="true">
+                                    No-code</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/portfolio-2.png" alt="Color system for app">
+
+                            <div class="flex">
+                                <p class="project-title">Color system for app</p>
+
+                                <button class="project-button bg-blue">
+                                    <img src="images/icon-pointer2.png" aria-hidden="true">
+                                    UI Design</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/portfolio-3.png" alt="Onboarding screen process">
+
+                            <div class="flex">
+                                <p class="project-title">Onboarding screen process</p>
+
+                                <button class="project-button bg-yellow">
+                                    <img src="images/icon-pointer3.png" aria-hidden="true">
+                                    UX Design</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/portfolio-4.png" alt="Finance landing page">
+
+                            <div class="flex">
+                                <p class="project-title">Finance landing page</p>
+
+                                <button class="project-button bg-green">
+                                    <img src="images/icon-pointer4.png" aria-hidden="true">
+                                   UI Design</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="experience">
+                    <div class="section-header spacer">
+                        <p class="section-title">Work Experience</p>
+                        <img src="images/icon-arrow.png" aria-hidden="true">
+                        <p>Have been designing since the past 4 years</p>
+                    </div>
+
+                        <div class="my-experience">
+                            <div class="experience-item flex">
+                                <p class="number number-one">1</p>
+
+                                <div>
+                                    <p>Design intern at <strong>Google</strong></p>
+                                    <small class="work-desc">Worked on design sytem at material 3 design</small>
+                                    <small class="date">22, April, 2021</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-item flex">
+                                <p class="number bg-blue">2</p>
+
+                                <div>
+                                    <p>Sr. UI/UX Desinger at <strong>Microsoft</strong></p>
+                                    <small class="work-desc">Worked on design sytem at material 3 design</small>
+                                    <small class="date">22, April, 2022</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-item flex">
+                                <p class="number bg-pink">3</p>
+
+                                <div>
+                                    <p>Software Engineer at <strong>SAAS Startup</strong></p>
+                                    <small class="work-desc">Worked on design sytem at material 3 design</small>
+                                    <small class="date">22, April, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </section>
+
+                <section class="contact-me">
+                    <div class="section-header spacer">
+                        <p class="section-title">Contact here</p>
+                        <img src="images/icon-arrow.png" aria-hidden="true">
+                        <p>Have a project idea?
+                            <br>
+                            Say <strong>Hi</strong> lets chat
+                        </p>
+                    </div>
+
+                    <form class="contact-form ">
+                        <div class="input-item flex">
+                            <label for="nameInput">Name</label>
+                            <input type="text" id="nameInput" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="input-item flex">
+                            <label for="emailInput" class="bg-simple-yellow">Email</label>
+                            <input type="email" id="emailInput" placeholder="yourname@gmail.com">
+                        </div>
+
+                        <div class="input-item flex">
+                            <label for="aboutInput" class="bg-simple-blue">About</label>
+                            <input type="text" id="aboutInput" placeholder="I want us to talk about" required>
+                        </div>
+
+                        <button class="submit-button">Send Here</button>
+                    </form>
+                </section>
+            </main>
+
+            <footer class="spacer">
+                <div class="footer-row">
+                    <img src="images/logo.png" alt="logo" class="logo">
+
+                    <div class="social-links">
+                        <a href="#">TwitterX</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+
+                <small class="copyright">Copyright©, Portfolio 2024</small>
+
+            </footer>
+        </header>
+    </div>
+    
+</body>
+</html>
